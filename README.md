@@ -1,60 +1,70 @@
-# Dashboard
+# Getting Started with Create React App
 
-Les dashboards ou tableau de bords permettent d’avoir une vision claire et précise
-sur l’état d’un business, ou d’un service.
-Très employés de nos jours, ils constituent l’un des meilleurs moyens d’afficher de la
-data… mais également l’un des meilleurs moyens de mettre en avant vos talents de
-développeur WEB.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Objectifs
-Vous devez réaliser, en binôme, votre propre dashboard sur le thème de votre choix.
-La réalisation de celui-ci se divise en 2 parties : le front-end et le back-end.
+## Available Scripts
 
-# 1) Front-end
-Le front-end représente la partie visible par l’utilisateur.
-Vous devez réaliser un minimum de 6 widgets différents en respectant les conditions
-suivantes :
-- Utiliser React. Chaque widget doit être un composant réutilisable.
-- Au moins un widget doit être un graphique. Vous pouvez utiliser la librairie
-Recharts ou toute autre librairie de graphes disponible sur npm.
-- Chaque widget devra être utilisable et testable dans l’environnement
-Storybook initialisé dans le repo du projet.
-- Les données affichées peuvent provenir de 2 sources :
-o Des APIs distantes (Bibliothèque allociné, spotify, Riot games …)
-o Une API que vous aurez réalisée (C.F. partie 2)
-Au minimum 1 widget doit venir d’une API que vous avez réalisé.
-Votre projet comporte 2 pages distinctes : une avec vos widgets et une autre
-permettant de configurer votre API (manipulation de données se répercutant
-visuellement sur vos widgets).
-Déterminez au préalable avec votre binôme les différentes tâches à effectuer pour ce
-projet et utiliser un outil tel que Trello pour suivre votre avancement.
-Vous devez réfléchir à un découpage en petites tâches de votre projet, assigner les
-tâches aux bonnes personnes et leurs donner une date de fin.
-Vous mettrez le lien public de l’outil que vous avez sélectionné dans le Readme de
-votre repo.
-Effectuez un Mock-up de votre site sur un outil tel que Mockflow ou Figma.
-Celui-ci vous permettra de réfléchir à la fois à l'expérience utilisateur (UX) et à
-l’interface utilisateur (UI).
-L’ensemble des images extraites de votre mockup doivent figurer dans le repo.
+In the project directory, you can run:
 
-# 2) Back-end
-Le back-end de ce projet est constitué d’une API permettant d’accéder aux données
-nécessaires au bon fonctionnement de vos widgets.
-Les contraintes sont les suivantes :
-- L’API devra être réalisée à l’aide d’express.
-- Celle-ci devra être configurable depuis la page administrative et devra
-permettre d’effectuer les 4 opérations CRUD (Creation, Research, Update,
-Delete des données).
-- Vous devrez sauvegarder vos données dans une BDD utilisant MongoDB
+### `npm start`
 
-# En bref…
-- Utiliser des outils de planification/gestion
-- Créer un wireframe de votre site
-- Créer 6 widgets dont minimum un graphe et un faisant appel aux données de
-votre API
-- Utiliser Storybook pour tester vos widgets
-- Le dashboard doit être responsive (PC, tablette, mobile)
-- Créer une API et une BDD MongoDB
-- L’aspect visuel de votre site sera également évalué 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Bon courage ! :)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
