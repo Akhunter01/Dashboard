@@ -1,4 +1,4 @@
-#DASHBOARD
+# DASHBOARD
 
 Les dashboards ou tableau de bords permettent d’avoir une vision claire et précise
 sur l’état d’un business, ou d’un service.
@@ -46,7 +46,7 @@ Les contraintes sont les suivantes :
 permettre d’effectuer les 4 opérations CRUD (Creation, Research, Update,
 Delete des données).
 - Vous devrez sauvegarder vos données dans une BDD utilisant MongoDB
-___________________________________________________________________________________________
+
 # En bref…
 - Utiliser des outils de planification/gestion
 - Créer un wireframe de votre site
