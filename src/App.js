@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 
-import img from "./img/jauge_dash.png";
+import img from "./img/jauge_sleep.png";
 
 const user = {
   name: "Michel",
